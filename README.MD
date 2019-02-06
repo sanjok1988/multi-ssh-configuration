@@ -1,6 +1,8 @@
-Create SSH keys with different names
+<h1>Create SSH keys with different names having different accounts</h1>
+<b>1. Generate ssh key from bash</b>
+  
+  $ ssh-keygen -t rsa -C "your_name@email.com"
 
-$ ssh-keygen -t rsa -C "your_name@email.com"
 When you see this message
 
 Generating public/private rsa key pair. 
@@ -8,17 +10,20 @@ Enter file in which to save the key (/home/user_name/.ssh/id_rsa):
 Enter unique name, for example:
 
 id_rsa_home
-Next, you'll be asked to enter a passphrase.
+
+<b>2.Next, you'll be asked to enter a passphrase.</b>
 
 So, you'll have created SSH key for your home account, now you can generate SSH key for your company account.
 
-Call SSH key generator again with second mail.
+<b>3.Call SSH key generator again with second mail.</b>
 
 $ ssh-keygen -t rsa -C "your_name@company_email.com"
+
 Enter name for file
 
 id_rsa_company
-After all steps you can check that all keys were created.
+
+<b>4.After all steps you can check that all keys were created.</b>
 
 $ ls ~/.ssh
 You should see a similar files list:
