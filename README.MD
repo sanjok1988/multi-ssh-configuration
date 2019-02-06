@@ -70,5 +70,10 @@ Hi home_user! You've successfully authenticated, but GitHub does not provide she
 $ ssh -T git@work.github.com
 Hi company_user! You've successfully authenticated, but GitHub does not provide shell access.
 
-IF YOU HAVE ALREADY EXISTING PROJECT THEN UPDATE GIT URL
+<b>IF YOU HAVE ALREADY EXISTING PROJECT THEN UPDATE GIT URL</b>
+
 git remote set-url origin git@gitlab-home:your_git_project_clone_url.git
+
+<b>IF YOU ARE CLONING NEW REPO THEN</b>
+
+git clone git@gitlab-home:your_git_project_clone_url.git
