@@ -48,8 +48,8 @@ Add into config file:
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/id_rsa_home
 
-# Company account
-  Host company.github.com
+# Company
+  Host gitlab.com-company
   HostName github.com
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/id_rsa_company
