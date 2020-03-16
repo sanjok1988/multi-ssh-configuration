@@ -64,7 +64,8 @@ If you see a message
 Could not open a connection to your authentication agent.
 Then enter:
 
-eval `ssh-agent -s`
+eval `ssh-agent -s` or eval $(ssh-agent)
+
 
 and try again previous command.
 
